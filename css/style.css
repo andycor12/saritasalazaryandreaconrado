@@ -1,0 +1,16 @@
+body{
+  text-align: center;
+   background: url("../img/fondo.jpg") no-repeat center fixed;
+   -webkit-background-size:cover;
+   -moz-background:cover;
+   -o-background-size:cover;
+   background-size: cover;
+  
+   margin: 0;
+}
+.hide {
+ 
+    
+    display: none;
+    
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>formulario de productos</title>
+        <link rel="stylesheet" href="estilos.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+   
+        
+<div class="container">
+        <div class="jumbotron row ">
+            <h2>Formulario de productos</small></h2>
+               <div class="mensaje-alerta">
+                   </div>
+
+            <div class="col-md-6">
+                <hr>
+                    <p class="modo"> <span class="glyphicon glyphicon-plus"></span>Agregar producto</p>
+                <form id="vacas-form">
+                    <input  class="form-control" type="text" id="nombre" placeholder="Nombre">
+                    <input  class="form-control" type="email" id="correo" placeholder="Correo">
+                    <input  class="form-control" type="text" id="peso" placeholder="producto">
+                    <input  class="form-control" type="date" id="fecha_nacimiento" placeholder="Fecha de nacimiento">
+                    <br>
+                    <input type="submit" class="btn btn-success" value=" Guardar">
+                </form>
+                <br>
+                <br>
+                <div id="numeroVacas">
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <img style=" width:100%" src="vaca.jpg" alt="" />
+            </div>
+
+        </div>
+
+
+        <br>
+        <br>
+        <table class="table" id="dbVacas-list">
+
+        </table>
+
+    </body>
+    <script type="text/javascript" src="../js/mate.js"></script>
+</html>
